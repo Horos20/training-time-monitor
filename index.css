@@ -1,0 +1,47 @@
+
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color: white;
+  }
+  
+  .right {
+    right: 0;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .spacing {
+    margin-bottom: 5px;
+  }
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+}
+
+input{
+  padding: 5px;
+}
+
+button{
+    margin-top: 12px;
+    font-size: 15px;
+}
